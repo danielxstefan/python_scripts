@@ -1,3 +1,6 @@
+Description for: find_duplicates.py script
+----------------------------------------------------------------------------------------------------------------------
+
 This Python script is designed for managing duplicate files within a file system. 
 Operating in two distinct modes, it caters to both the identification and the subsequent clean-up of duplicate files.
 
