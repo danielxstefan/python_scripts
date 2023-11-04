@@ -25,7 +25,8 @@ def find_duplicate_files(directory):
     duplicates = []
     output_file = 'duplicates.txt'
     print(f"Scanning {directory} for duplicates...")
-    with open(output_file, 'w') as f:
+    # with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:  # Specify UTF-8 encoding here
         for dirpath, dirnames, filenames in os.walk(directory):
             for filename in filenames:
                 filepath = os.path.join(dirpath, filename)
